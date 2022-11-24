@@ -1,0 +1,59 @@
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  .nav_container {
+    max-width: 1040px;
+    height: 67px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .figmalandBox {
+      display: flex;
+      color: white;
+      height: 100%;
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+        margin-right: 45px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+      }
+      img {
+        height: 90%;
+      }
+    }
+    .iconBox {
+      letter-spacing: 5px;
+      i {
+        font-size: 32px;
+        color: white;
+      }
+    }
+    .hamburer_menu {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 996px) {
+  nav {
+    .nav_container {
+      .figmalandBox {
+        ul {
+          display: none;
+        }
+      }
+      .iconBox {
+        display: none;
+      }
+      .hamburer_menu {
+        display: block;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+@import url("https://fonts.cdnfonts.com/css/graphik");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  font-family: "Graphik", sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+nav .nav_container {
+  max-width: 1040px;
+  height: 67px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav_container .figmalandBox {
+  display: flex;
+  color: white;
+  height: 100%;
+}
+nav .nav_container .figmalandBox ul {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  margin-right: 45px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+nav .nav_container .figmalandBox img {
+  height: 90%;
+}
+nav .nav_container .iconBox {
+  letter-spacing: 5px;
+}
+nav .nav_container .iconBox i {
+  font-size: 32px;
+  color: white;
+}
+nav .nav_container .hamburer_menu {
+  display: none;
+}
+
+@media screen and (max-width: 996px) {
+  nav .nav_container .figmalandBox ul {
+    display: none;
+  }
+  nav .nav_container .iconBox {
+    display: none;
+  }
+  nav .nav_container .hamburer_menu {
+    display: block;
+    color: white;
+  }
+}
+.best_product {
+  min-height: 100vh;
+  background-image: url("../imgs/BestProductBackground.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.best_product .best_product__container {
+  max-width: 700px;
+  text-align: center;
+}
+.best_product .best_product__container h1 {
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.best_product .best_product__container h3 {
+  margin-top: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 90px;
+}
+.best_product .best_product__container button {
+  align-items: center;
+  padding: 16px 0px;
+  width: 236px;
+  height: 52px;
+  background: #2091f9;
+  border-radius: 35px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 996px) {
+  .best_product .best_product__container h1 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .best_product .best_product__container h3 {
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .best_product .best_product__container h1 {
+    font-size: 23px;
+  }
+}/*# sourceMappingURL=main.css.map */
